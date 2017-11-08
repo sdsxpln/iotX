@@ -13,3 +13,7 @@ parts:
   x-assistant:
     plugin: autotools
     source: x-assistant/
+    after: [bcm2835]
+  bcm2835:
+    plugin: autotools
+    source: http://www.airspayce.com/mikem/bcm2835/bcm2835-1.52.tar.gz
