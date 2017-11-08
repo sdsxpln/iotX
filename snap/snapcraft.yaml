@@ -1,0 +1,15 @@
+name: iotx
+version: "0.0.1"
+summary: x project for iot on raspberry pi
+description: iotivity on raspberry pi
+
+grade: devel
+confinement: devmode
+apps:
+  x-assistant:
+    command: x-assistant
+
+parts:
+  x-assistant:
+    plugin: autotools
+    source: x-assistant/
