@@ -3,5 +3,6 @@
 
 extern int test_led( void );
 extern int test_oled( void );
+extern int test_bp180( void );
 
 #endif

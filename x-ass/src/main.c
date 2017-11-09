@@ -2,7 +2,7 @@
 
 int main(int argc, char **argv)
 {
-    test_oled();
+    test_bp180();
     
     return 0;
 }
