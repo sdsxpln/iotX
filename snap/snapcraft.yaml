@@ -6,11 +6,11 @@ description: iotivity on raspberry pi
 grade: devel
 confinement: devmode
 apps:
-  x-assistant:
+  x-ass:
     command: x-ass
 
 parts:
-  x-assistant:
+  x-ass:
     plugin: autotools
     source: x-ass/
     after: [bcm2835]

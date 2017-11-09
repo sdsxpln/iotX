@@ -1,3 +1,3 @@
 bin_PROGRAMS= x-ass
-x_ass_SOURCES= main.c
+x_ass_SOURCES= main.c ssd1306.c ssd1306.h test_oled.c test_led.c driver_test.h
 x_ass_CFLAGS= -lbcm2835

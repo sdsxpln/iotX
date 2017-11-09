@@ -1,2 +1,2 @@
 # iotX
-iot example.
+iot example. raspberry pi3 + Pionner600
