@@ -3,3 +3,4 @@ prime
 stage
 snap/.snapcraft
 iotx_*.snap
+.deps

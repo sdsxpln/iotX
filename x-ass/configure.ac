@@ -1,5 +1,5 @@
 AC_PREREQ(2.59)
-AC_INIT([x-assistant], [0.0.1], [vence2013@163.com])
+AC_INIT([x-ass], [0.0.1], [vence2013@163.com])
 
 AC_CONFIG_AUX_DIR([build-aux])  
 

@@ -7,12 +7,12 @@ grade: devel
 confinement: devmode
 apps:
   x-assistant:
-    command: x-assistant
+    command: x-ass
 
 parts:
   x-assistant:
     plugin: autotools
-    source: x-assistant/
+    source: x-ass/
     after: [bcm2835]
   bcm2835:
     plugin: autotools
