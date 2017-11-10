@@ -1,1 +1,1 @@
-SUBDIRS=src
+SUBDIRS=pioneer600 src
